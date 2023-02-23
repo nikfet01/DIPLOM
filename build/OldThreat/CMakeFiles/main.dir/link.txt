@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/src/main.cpp.o -o ../bin/main  -Wl,-rpath,"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/lib" ../lib/libjsoncpp.so.1.9.5 

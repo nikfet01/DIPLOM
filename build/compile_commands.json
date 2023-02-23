@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat",
+  "command": "/usr/bin/c++  -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\"  -o CMakeFiles/main.dir/src/main.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/src/main.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/src/main.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_lib.dir/json_reader.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_lib.dir/json_value.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -Djsoncpp_lib_EXPORTS -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_lib.dir/json_writer.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_object.dir/json_reader.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_object.dir/json_value.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -fPIC -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_object.dir/json_writer.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_static.dir/json_reader.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_reader.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_static.dir/json_value.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_value.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL_BUILD -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -Werror=strict-aliasing -std=c++11 -o CMakeFiles/jsoncpp_static.dir/json_writer.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/json_writer.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/jsontestrunner",
+  "command": "/usr/bin/c++ -DJSON_DLL -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11 -o CMakeFiles/jsontestrunner_exe.dir/main.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/jsontestrunner/main.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/jsontestrunner/main.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11 -o CMakeFiles/jsoncpp_test.dir/jsontest.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/jsontest.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/jsontest.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11 -o CMakeFiles/jsoncpp_test.dir/fuzz.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/fuzz.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/fuzz.cpp"
+},
+{
+  "directory": "/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/src/test_lib_json",
+  "command": "/usr/bin/c++ -DJSON_DLL -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/lib_json/../../include\" -I\"/home/nikita/Рабочий стол/projectgit/DIPLOM/build/OldThreat/dependencies/jsoncpp/include/json\" -Wall -Wconversion -Wshadow -Wextra -Wpedantic -std=c++11 -o CMakeFiles/jsoncpp_test.dir/main.cpp.o -c \"/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/main.cpp\"",
+  "file": "/home/nikita/Рабочий стол/projectgit/DIPLOM/OldThreat/dependencies/jsoncpp/src/test_lib_json/main.cpp"
+}
+]

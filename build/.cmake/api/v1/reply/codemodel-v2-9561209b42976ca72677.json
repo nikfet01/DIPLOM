@@ -1,0 +1,513 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "OldThreat",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "OldThreat",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp",
+					"childIndexes" : 
+					[
+						3,
+						7
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp/src",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp/src"
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp/src/lib_json",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp/src/lib_json",
+					"targetIndexes" : 
+					[
+						29,
+						30,
+						32
+					]
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp/src/jsontestrunner",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp/src/jsontestrunner",
+					"targetIndexes" : 
+					[
+						28,
+						31,
+						34
+					]
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp/src/test_lib_json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp/src/test_lib_json",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "OldThreat/dependencies/jsoncpp/include",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "OldThreat/dependencies/jsoncpp/include"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DIPLOM"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "threat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "jsoncpp",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@264d40669bc45e5873fc",
+					"jsonFile" : "target-Continuous-Debug-fd39c1e38f4ad442d31a.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousBuild-Debug-4633c1fd28cfb5e253c1.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousConfigure-Debug-e1c8073d3b386bbaa0a2.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousCoverage-Debug-2d94b13917b4efd3f19d.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-95c841308645c35db973.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousStart-Debug-58147837bef7bbf5cae6.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousSubmit-Debug-38fbd8307e0658af331d.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousTest-Debug-1b9af0920ebf7b3c1d44.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ContinuousUpdate-Debug-960c7e98eaf9b07a2779.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@264d40669bc45e5873fc",
+					"jsonFile" : "target-Experimental-Debug-befe988d41cbffe0be20.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalBuild-Debug-963d4b7be4d21418d568.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-ec0c461bb5928d237b5e.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-8140f4d53b8b1bb234fe.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-c1743462d951216becbd.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalStart-Debug-d53cd4a8735b24c1e6ae.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-a4086a6b16892dfc4612.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalTest-Debug-7d0c5c4c21a6a48c0383.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@264d40669bc45e5873fc",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-a976e5d5faf9643d58ec.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@264d40669bc45e5873fc",
+					"jsonFile" : "target-Nightly-Debug-4feee9feb6f040afbef9.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyBuild-Debug-287b3861914ee0df5e55.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyConfigure-Debug-84ae421faae0cc057411.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyCoverage-Debug-1ddadea5b36bc07e05d7.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyMemCheck-Debug-0dfe77a52943cb0fcc8b.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-ff70320c487231621c58.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyStart-Debug-318d8720dc6af084c102.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlySubmit-Debug-b410168aea47d82547a4.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyTest-Debug-81aad2c0afd34d5cec9d.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@264d40669bc45e5873fc",
+					"jsonFile" : "target-NightlyUpdate-Debug-425ab2711a2caf67c02c.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jsoncpp_check::@14097b9a12e724d14142",
+					"jsonFile" : "target-jsoncpp_check-Debug-302c28e46a16cf80491e.json",
+					"name" : "jsoncpp_check",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jsoncpp_lib::@c0d7001b6f11af3c1e3c",
+					"jsonFile" : "target-jsoncpp_lib-Debug-1acef2d741090b2230fe.json",
+					"name" : "jsoncpp_lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jsoncpp_object::@c0d7001b6f11af3c1e3c",
+					"jsonFile" : "target-jsoncpp_object-Debug-9d13749f717c10fa1d60.json",
+					"name" : "jsoncpp_object",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jsoncpp_readerwriter_tests::@14097b9a12e724d14142",
+					"jsonFile" : "target-jsoncpp_readerwriter_tests-Debug-7400b415968b0cb0652b.json",
+					"name" : "jsoncpp_readerwriter_tests",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "jsoncpp_static::@c0d7001b6f11af3c1e3c",
+					"jsonFile" : "target-jsoncpp_static-Debug-3956ebc0d7dc142276ec.json",
+					"name" : "jsoncpp_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "jsoncpp_test::@a171ab8c29675f411fdd",
+					"jsonFile" : "target-jsoncpp_test-Debug-1ddfdb3453446dbe6707.json",
+					"name" : "jsoncpp_test",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "jsontestrunner_exe::@14097b9a12e724d14142",
+					"jsonFile" : "target-jsontestrunner_exe-Debug-814cd783c2841322a8b8.json",
+					"name" : "jsontestrunner_exe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "main::@95d372d48f2eb1013f24",
+					"jsonFile" : "target-main-Debug-7fd5bef0fce57da28206.json",
+					"name" : "main",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nikita/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projectgit/DIPLOM/build",
+		"source" : "/home/nikita/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/projectgit/DIPLOM"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
